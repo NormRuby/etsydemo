@@ -13,9 +13,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "paperclip", "~> 4.3"
 
-group :developmet, :test do
-	gem 'sqlite3'
-end
+#group :developmet, :test do
+#	gem 'sqlite3'
+#end
 
 group :production do
 	gem 'pg'
